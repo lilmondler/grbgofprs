@@ -1,0 +1,41 @@
+npx create-next-app@latest garbage-of-paris
+cd garbage-of-paris
+```
+
+Выбери: **No** для TypeScript (если не хочешь усложнять), **Yes** для ESLint, **Yes** для Tailwind CSS, **No** для App Router (используй Pages Router — проще).
+
+---
+
+## Шаг 2 — Структура папок
+```
+garbage-of-paris/
+├── public/
+│   ├── gallery/
+│   │   ├── 2023/        ← сюда просто кидаешь фото
+│   │   ├── 2024/
+│   │   ├── 2025/
+│   │   └── 2026/
+│   ├── cursor.png       ← твой пиксельный курсор
+│   └── banner.jpg
+│
+├── data/
+│   ├── photos.json      ← метаданные фото: дата, место, файл
+│   └── posts.json       ← твои посты/заметки
+│
+├── pages/
+│   ├── index.js         ← Home
+│   ├── gallery/
+│   │   ├── index.js     ← страница с иконками мусорок по годам
+│   │   └── [year].js    ← альбом за конкретный год
+│   └── posts/
+│       ├── index.js     ← список постов
+│       └── [slug].js    ← отдельный пост
+│
+├── components/
+│   ├── Navbar.js
+│   ├── Manifest.js      ← разворачивающийся манифест
+│   ├── PhotoModal.js    ← лайтбокс с датой/местом
+│   └── PostCard.js
+│
+└── styles/
+    └── globals.css      ← пиксельный шрифт, курсор, общие стили
