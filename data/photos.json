@@ -1,0 +1,21 @@
+{
+  "2024": [
+    {
+      "file": "IMG_001.jpg",
+      "date": "14 mars 2024",
+      "location": "Belleville, Paris 20e"
+    },
+    {
+      "file": "IMG_002.jpg",
+      "date": "22 avril 2024",
+      "location": "Canal Saint-Martin, Paris 10e"
+    }
+  ],
+  "2023": [
+    {
+      "file": "photo1.jpg",
+      "date": "5 juin 2023",
+      "location": "Montmartre, Paris 18e"
+    }
+  ]
+}
