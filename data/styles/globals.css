@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Пиксельный курсор только на десктопе */
+@media (hover: hover) {
+  * { cursor: url('/cursor.png'), auto; }
+  a, button { cursor: url('/cursor-pointer.png'), pointer; }
+}
+
+.pixel-font {
+  font-family: 'Press Start 2P', monospace;
+}
